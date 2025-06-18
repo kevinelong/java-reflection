@@ -1,6 +1,6 @@
 import java.lang.reflect.Method;
 
-class GreeterService {
+class GreeterService extends Object{
     public void sayHello(String name) {
         System.out.println("Hello, " + name + "!");
     }
